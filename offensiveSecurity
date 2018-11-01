@@ -1,5 +1,6 @@
 #!/bin/bash
-# Kali Offensive Security Installation
+# Don't actually do this
+# itsa joke
 
 sudo cd /
 sudo cd usr/bin/
