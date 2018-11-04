@@ -15,5 +15,5 @@ While some are worth committing to muscle memory, others are frankly too esoteri
 
 # Linux Made Easy!
 
-  - Unlike manual pages, accessed by `man commandName`, LinuxLife demonstrates how `commandName`
+  - Unlike manual pages, accessible by `man commandName`, LinuxLife demonstrates how `commandName`
         actually gets used, instead of providing a glossary of options.
