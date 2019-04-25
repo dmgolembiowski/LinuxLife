@@ -10,7 +10,7 @@ Create a super-fast ram disk<br />
 ```root@debian $ mkdir -p /mnt/ram```<br />
 ```root@debian $ tmpfs tmpfs /mnt/ram -o size=8192M```<br />
 <br />
-Create evil command that doesn't get stored in bash history<br />
+Create an evil command that will not get stored in bash history<br />
 ```david@debian $ <space character>echo 'iwalton3 can\'t even type (oooo burn)'```<br />
 <br />
 Fix a really long command that you messed up<br />
