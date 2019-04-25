@@ -1,3 +1,9 @@
+# Copy all mp3 files from absolute path to current directory 
+```
+david@debian $ find /home/david/music -name "*.mp3" -exec cp -i {} . \;
+```
+<br />
+
 # Redo last command but as root
 ```
 david@debian $ sudo !!
