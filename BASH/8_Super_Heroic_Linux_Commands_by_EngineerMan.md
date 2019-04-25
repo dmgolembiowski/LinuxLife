@@ -11,7 +11,7 @@ david@debian $ <CTRL + x + e>
 <br />
 
 # Create a super-fast ram disk
-<br />
+
 ```
 root@debian $ mkdir -p /mnt/ram
 root@debian $ tmpfs tmpfs /mnt/ram -o size=8192M
@@ -19,14 +19,13 @@ root@debian $ tmpfs tmpfs /mnt/ram -o size=8192M
 <br />
 
 # Create an evil command that will not get stored in bash history
-<br />
 ```
 david@debian $ <space character>echo 'iwalton3 can\'t even type (oooo burn)'
 ```
 <br />
 
 # Fix a really long command that you messed up
-<br />
+
 ```
 david@debian $ fc
 ```
@@ -52,7 +51,7 @@ david@debian $ cat file | tee -a log | cat > /dev/null
 <b />
 
 # Exit terminal... but leave all processes running
-<br />
+
 ```
 david@debian $ disown -a && exit
 ```
