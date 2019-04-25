@@ -48,7 +48,7 @@ david@debian $ ssh -L 3337:127.0.0.1:6379 root@vk.ai -N
 # Quickly create (many, many) folders
 
 ```
-david@debian $ mkdir -p folder/{static, templates}/{etc, styling, scripts}
+david@debian $ mkdir -p folder/{static,templates}/{etc,styling,scripts}
 ```
 <br />
 
