@@ -41,7 +41,7 @@ david@debian $ fc
 # Tunnel with ssh (local port 3337 -> remote host's 127.0.0.1 on port 6379)
 
 ```
-david@debian $ ssh -L 3337:127.0.0.1:6379 root@dgolembiowski.com -N
+david@debian $ ssh -L 3337:127.0.0.1:6379 root@vk.ai -N
 ```
 <br />
 
