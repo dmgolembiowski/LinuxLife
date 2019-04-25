@@ -1,6 +1,6 @@
 # Redo last command but as root
 ```
-david@debian $ sudo !!
+**_david@debian_** $ sudo !!
 ```
 <br />
 
