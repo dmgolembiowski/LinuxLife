@@ -1,6 +1,7 @@
 #!/bin/bash <-- This header applies to full blown scripts written in just BASH
-
+<br /><br />
 # Get all of your currently-running processes
+<br />
 `david@debian $ ps -ef`
 UID        PID  PPID  C STIME TTY          TIME CMD
 root         1     0  0 17:00 ?        00:00:05 /sbin/init
