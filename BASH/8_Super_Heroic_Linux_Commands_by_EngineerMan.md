@@ -1,6 +1,6 @@
 # Redo last command but as root
 ```
-**_david@debian_** $ sudo !!
+david@debian $ sudo !!
 ```
 <br />
 
@@ -51,11 +51,10 @@ david@debian $ mkdir -p folder/{static, templates}/{etc, styling, scripts}
 ```
 david@debian $ cat file | tee -a log | cat > /dev/null
 ```
-<b  />
+<b />
 
 
 # Exit terminal... but leave all processes running
-
 ```
 david@debian $ disown -a && exit
 ```
