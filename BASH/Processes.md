@@ -1,7 +1,9 @@
 
 Get all of your currently-running processes
 <br />
-```david@debian $ ps -ef
+```
+david@debian $ ps -ef
+
 UID        PID  PPID  C STIME TTY          TIME CMD
 root         1     0  0 17:00 ?        00:00:05 /sbin/init
 root         2     0  0 17:00 ?        00:00:00 [kthreadd]
