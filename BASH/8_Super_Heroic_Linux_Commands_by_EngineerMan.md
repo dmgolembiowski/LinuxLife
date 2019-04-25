@@ -1,8 +1,10 @@
 Redo last command but as root<br />
 ```david@debian $ sudo !!```
 <br />
+<br />
 Open an editor to run a command that would be easier to write in a terminal<br />
 ```david@debian $ <CTRL + x + e>```
+<br />
 <br />
 Create a super-fast ram disk<br />
 ```root@debian $ mkdir -p /mnt/ram```<br />
