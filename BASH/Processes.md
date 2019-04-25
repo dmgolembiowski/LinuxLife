@@ -13,7 +13,8 @@ root         6     2  0 17:00 ?        00:00:00 [kworker/0:0H-kblockd]
 ```
 <br />
 # Get the process ID number of any running 'gnome' process
-```david@debian $ ps -ef | grep gnome
+```
+david@debian $ ps -ef | grep gnome
 
 david     1193     1  0 17:01 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
 david     1271  1180  0 17:01 ?        00:00:02 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
