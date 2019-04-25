@@ -51,17 +51,8 @@ david@debian $ mkdir -p folder/{static, templates}/{etc, styling, scripts}
 ```
 david@debian $ cat file | tee -a log | cat > /dev/null
 ```
-<b />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+<b  />
+
 
 # Exit terminal... but leave all processes running
 
