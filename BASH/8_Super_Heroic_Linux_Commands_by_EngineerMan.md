@@ -27,7 +27,7 @@ root@debian $ tmpfs tmpfs /mnt/ram -o size=8192M
 # Create an evil command that will not get stored in bash history
 
 ```
-david@debian $ <space character>echo "hack --path /central/algorithims/* --time=0; "
+david@debian $ <space character>hack --path /central/algorithims/* --time=0; 
 ```
 <br />
 
