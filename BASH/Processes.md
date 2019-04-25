@@ -11,6 +11,7 @@ root         4     2  0 17:00 ?        00:00:00 [rcu_par_gp]
 root         6     2  0 17:00 ?        00:00:00 [kworker/0:0H-kblockd]
 ```
 <br />
+
 # Get the process ID number of any running 'gnome' process
 ```
 david@debian $ ps -ef | grep gnome
