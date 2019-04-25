@@ -49,6 +49,16 @@ david@debian $ ssh -L 3337:127.0.0.1:6379 root@vk.ai -N
 
 ```
 david@debian $ mkdir -p folder/{static,templates}/{etc,styling,scripts}
+david@debian $ tree folder
+folder
+├── static
+│   ├── etc
+│   ├── scripts
+│   └── styling
+└── templates
+    ├── etc
+    ├── scripts
+    └── styling
 ```
 <br />
 
