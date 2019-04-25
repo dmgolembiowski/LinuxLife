@@ -1,11 +1,15 @@
 # Redo last command but as root
 <br />
-```david@debian $ sudo !!```
+```
+david@debian $ sudo !!
+```
 <br />
 
 # Open an editor to run a command that would be easier to write in a terminal
 <br />
-```david@debian $ <CTRL + x + e>```
+```
+david@debian $ <CTRL + x + e>
+```
 <br />
 
 # Create a super-fast ram disk
