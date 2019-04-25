@@ -45,6 +45,7 @@ david    26232 25791  0 23:12 pts/0    00:00:00 vim example.txt
 david@debian $ % fg %26232`
 ```
 <br />
+
 # Suppose you wanted to kill a process (like leafpad):
 ```
 david@debian $ pkill leafpad`
