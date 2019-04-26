@@ -19,8 +19,25 @@ david@debian $ <CTRL + x + e>
 # Create a super-fast ram disk
 
 ```
-root@debian $ mkdir -p /mnt/ram
-root@debian $ tmpfs tmpfs /mnt/ram -o size=8192M
+Example:
+root@debian # mkdir ram
+root@debian # cd ram/
+root@debian # dd if=/dev/zero of=test.iso bs=1M count=8000
+8000+0 records in
+8000+0 records out
+8388608000 bytes (8.4 GB, 7.8 GiB) copied, 44.2673 s, 189 MB/s
+root@debian # rm test.iso
+root@debian # cd ..
+root@debian # mount -t tmpfs tmpfs /mnt/ram -o size=8192M
+root@debian # cd ram/
+root@debian # dd if=/dev/zero of=test.iso bs=1M count=8000
+8000+0 records in
+8000+0 records out
+8388608000 bytes (8.4 GB, 7.8 GiB) copied, 2.59548 s, 3.2 GB/s
+
+Crux:
+root@debian # mkdir -p /mnt/ram
+root@debian # tmpfs tmpfs /mnt/ram -o size=8192M
 ```
 <br />
 
