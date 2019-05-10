@@ -79,6 +79,15 @@ folder
 ```
 <br />
 
+# Quickly create required base files for Python repositories
+
+```
+david@debian $ touch {graphDB,columnStore,kvStore}/__init__.py
+david@debian $ ls columnStore
+__init__.py
+```
+<br />
+
 # Intercept stdout and log to file (Really useful for monitoring)
 
 ```
