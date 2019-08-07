@@ -1,0 +1,13 @@
+Running this:
+
+    `git config --global alias.acm '!git add -A && git commit '`
+
+in the terminal allows you to use the alias
+
+    `git acm`
+
+which will open up your text-editor to type your brief commit message,
+and avoid the unnecessarily long:
+
+    `git add -A`
+    `git commit -m "my message here"`
