@@ -1,0 +1,23 @@
+#!/usr/bin/python3.7
+import subprocess
+import sys
+import os
+
+if __name__ == "__main__":
+    assert len(sys.argv) > 1, "Please specify the spreadsheet name"
+    paths = ['h'+line[2:].decode("utf-8") for line in subprocess.check_output("find ~ -iname '*.sc'", shell=True).splitlines()]
+    correct_files = (os.path.split(X)[1].strip(".sc") for X in paths)
+    names = []
+    while correct_files:
+        try:
+            names.append(next(correct_files))
+        except StopIteration:
+            break
+    for name in names:
+        if sys.argv[1] == name+".sc":
+            sys.exit(
+                    subprocess.call(["sc", name+".sc"])
+            )
+    sys.exit(
+            subprocess.call(["sc", f"/home/david/.xl/{sys.argv[1]}.sc"])
+    )
