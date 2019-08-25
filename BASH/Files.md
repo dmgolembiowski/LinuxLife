@@ -20,4 +20,8 @@ parent-directory
 ```
 <br />
 
+# Creating a symlink to another directory path, X, in the current directory
 
+```
+david@debian $ ln -s X .
+```
