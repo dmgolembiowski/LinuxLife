@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+import sys
+import shutil
+import os
+import IPython
+
+def writable_dir(directory=os.getcwd()):
+    if os.access(directory, os.W_OK):
+        return os.path.abspath(directory)
+    else:
+        #return None
+        raise ValueError("User is forbidden from writing this file.")
+
+def build_webproject(cwd):
+    destination = cwd + sys.argv[1]
+    builder_location = os.environ.get("BUILDER_DIR")
+    shutil.copytree(builder_location, destination)
+    print(f"webuild: {destination}")
+
+def main():
+    assert (len(sys.argv[1:]) == 1), "Please enter a single webproject name"
+    dest = writable_dir() + '/'
+    build_webproject(dest)
+
+main()
