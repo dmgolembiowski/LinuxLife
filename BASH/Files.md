@@ -20,4 +20,8 @@ parent-directory
 ```
 <br />
 
+# Get names of all files matching a pattern given a path, and writitng them to some destination path
 
+```
+david@debian$ ls -ltr *vim 2>/dev/null | awk '{print $9}' > $destination_path/manything.vim
+```
