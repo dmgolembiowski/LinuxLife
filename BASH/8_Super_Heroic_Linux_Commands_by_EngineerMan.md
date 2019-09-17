@@ -97,14 +97,22 @@ david@debian $ cat file | tee -a log | cat > /dev/null
 
 
 # Exit terminal... but leave all processes running
+
 ```
 david@debian $ disown -a && exit
 ```
 <br />
 
 # Restart a legacy JBoss instance without closing it
+
 ```
 priv_user@server # <script_name>.sh && disown -a && exit
+```
+OR with
+<br />
+```
+priv_user@server # <script_name>.sh >/dev/null 2>&1 &
+priv_user@server # disown -a && exit
 ```
 <br />
 <br />
