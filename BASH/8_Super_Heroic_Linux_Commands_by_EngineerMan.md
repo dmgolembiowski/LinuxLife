@@ -101,6 +101,11 @@ david@debian $ cat file | tee -a log | cat > /dev/null
 david@debian $ disown -a && exit
 ```
 <br />
+
+# Restart a legacy JBoss instance without closing it
+```
+priv_user@server # <script_name>.sh && disown -a && exit
+```
 <br />
 <br />
 <br />
