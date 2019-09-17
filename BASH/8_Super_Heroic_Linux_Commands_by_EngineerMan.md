@@ -108,20 +108,12 @@ david@debian $ disown -a && exit
 ```
 priv_user@server # <script_name>.sh && disown -a && exit
 ```
-OR with
-<br />
+
+OR with <br />
+
 ```
 priv_user@server # <script_name>.sh >/dev/null 2>&1 &
 priv_user@server # disown -a && exit
 ```
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 <br />
 Credits: "Engineer Man" Channel on YouTube
