@@ -20,8 +20,15 @@ parent-directory
 ```
 <br />
 
+<<<<<<< HEAD
 # Get names of all files matching a pattern given a path, and writitng them to some destination path
 
 ```
 david@debian$ ls -ltr *vim 2>/dev/null | awk '{print $9}' > $destination_path/manything.vim
+=======
+# Creating a symlink to another directory path, X, in the current directory
+
+```
+david@debian $ ln -s X .
+>>>>>>> d1bf3c71f6c075950316af75c489c318f9beafc7
 ```
