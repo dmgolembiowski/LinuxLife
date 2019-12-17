@@ -1,0 +1,4 @@
+type,name,value,mac_address
+ethernet,enp4s0,54:e1:ad:aa:73:f3,54:e1:ad:aa:73:f3
+wireless,wlp5s0,192.168.1.143,90:61:ae:fc:af:a3
+lo,lo,127.0.0.1,None
