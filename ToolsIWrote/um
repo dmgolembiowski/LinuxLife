@@ -1,5 +1,4 @@
 #!/usr/bin/python3.7
-from __future__ import annotations
 import sys
 import webbrowser
 
